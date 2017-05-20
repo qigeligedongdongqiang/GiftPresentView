@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D256E7111D3FBA4C00EDC3C4 /* 映客刷礼物模块.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "映客刷礼物模块.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D256E7111D3FBA4C00EDC3C4 /* GiftPresntView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftPresntView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D256E7151D3FBA4C00EDC3C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D256E7171D3FBA4C00EDC3C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D256E7181D3FBA4C00EDC3C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		D256E7081D3FBA4C00EDC3C4 = {
 			isa = PBXGroup;
 			children = (
-				D256E7131D3FBA4C00EDC3C4 /* 映客刷礼物模块 */,
+				D256E7131D3FBA4C00EDC3C4 /* GiftPresentView */,
 				D256E7121D3FBA4C00EDC3C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		D256E7121D3FBA4C00EDC3C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D256E7111D3FBA4C00EDC3C4 /* 映客刷礼物模块.app */,
+				D256E7111D3FBA4C00EDC3C4 /* GiftPresntView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D256E7131D3FBA4C00EDC3C4 /* 映客刷礼物模块 */ = {
+		D256E7131D3FBA4C00EDC3C4 /* GiftPresentView */ = {
 			isa = PBXGroup;
 			children = (
 				D256E7171D3FBA4C00EDC3C4 /* AppDelegate.h */,
@@ -88,7 +88,8 @@
 				D256E7251D3FBA4C00EDC3C4 /* Info.plist */,
 				D256E7141D3FBA4C00EDC3C4 /* Supporting Files */,
 			);
-			path = "映客刷礼物模块";
+			name = GiftPresentView;
+			path = GiftPresntView;
 			sourceTree = "<group>";
 		};
 		D256E7141D3FBA4C00EDC3C4 /* Supporting Files */ = {
@@ -102,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D256E7101D3FBA4C00EDC3C4 /* 映客刷礼物模块 */ = {
+		D256E7101D3FBA4C00EDC3C4 /* GiftPresntView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D256E7281D3FBA4C00EDC3C4 /* Build configuration list for PBXNativeTarget "映客刷礼物模块" */;
+			buildConfigurationList = D256E7281D3FBA4C00EDC3C4 /* Build configuration list for PBXNativeTarget "GiftPresntView" */;
 			buildPhases = (
 				D256E70D1D3FBA4C00EDC3C4 /* Sources */,
 				D256E70E1D3FBA4C00EDC3C4 /* Frameworks */,
@@ -114,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = "映客刷礼物模块";
+			name = GiftPresntView;
 			productName = "映客刷礼物模块";
-			productReference = D256E7111D3FBA4C00EDC3C4 /* 映客刷礼物模块.app */;
+			productReference = D256E7111D3FBA4C00EDC3C4 /* GiftPresntView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D256E70C1D3FBA4C00EDC3C4 /* Build configuration list for PBXProject "映客刷礼物模块" */;
+			buildConfigurationList = D256E70C1D3FBA4C00EDC3C4 /* Build configuration list for PBXProject "GiftPresntView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -146,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D256E7101D3FBA4C00EDC3C4 /* 映客刷礼物模块 */,
+				D256E7101D3FBA4C00EDC3C4 /* GiftPresntView */,
 			);
 		};
 /* End PBXProject section */
@@ -285,9 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "映客刷礼物模块/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GiftPresntView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Myself.-------";
+				PRODUCT_BUNDLE_IDENTIFIER = Jadon.Mao.GiftPresentView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -296,9 +297,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "映客刷礼物模块/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GiftPresntView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Myself.-------";
+				PRODUCT_BUNDLE_IDENTIFIER = Jadon.Mao.GiftPresentView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -306,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D256E70C1D3FBA4C00EDC3C4 /* Build configuration list for PBXProject "映客刷礼物模块" */ = {
+		D256E70C1D3FBA4C00EDC3C4 /* Build configuration list for PBXProject "GiftPresntView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D256E7261D3FBA4C00EDC3C4 /* Debug */,
@@ -315,13 +316,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D256E7281D3FBA4C00EDC3C4 /* Build configuration list for PBXNativeTarget "映客刷礼物模块" */ = {
+		D256E7281D3FBA4C00EDC3C4 /* Build configuration list for PBXNativeTarget "GiftPresntView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D256E7291D3FBA4C00EDC3C4 /* Debug */,
 				D256E72A1D3FBA4C00EDC3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
