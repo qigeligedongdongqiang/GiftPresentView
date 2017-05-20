@@ -22,4 +22,4 @@ In order to consolidate knowledge.
 
 ## License
 
-WaterFlowCollectionViewLayout is released under the MIT license. See LICENSE for details.
+GiftPresentView is released under the MIT license. See LICENSE for details.
